@@ -1,0 +1,32 @@
+{
+  "name": "valley-landscape",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A procedural northern valley for three.js and WebGPU: terrain, a lake and river, forest, meadows, a day and night cycle, wind and ambient sound.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "dependencies": {
+    "idb": "^8.0.4",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/three": "0.186.0",
+    "fake-indexeddb": "^6.2.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  }
+}
